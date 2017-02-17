@@ -8,3 +8,5 @@ Hi, It a simple WebView App for http://goshujin.tk/ Thai Novel Community Website
 - ย้อนหน้ากลับไปได้
 - เข้าสู่หน้าค้นหา
 ฯลฯ
+
+//คอมมิทไฟล์เผยแพร่เพื่อหาคนที่จะพอร์ทไปไอโอเอสครับ
