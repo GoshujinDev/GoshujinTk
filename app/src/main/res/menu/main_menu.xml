@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto" >
+	<item
+		android:title="mainMenu"
+		android:id="@+id/menus"
+		android:orderInCategory="100"
+		android:icon="@drawable/more_option" 
+		app:showAsAction="always" >
+		<menu>
+			<item
+				android:id="@+id/refreshMenu"
+        		android:title="รีเฟรช" />
+			<item
+				android:id="@+id/backMenu"
+        		android:title="ย้อนกลับ" />
+			<item
+				android:id="@+id/forwardMenu"
+        		android:title="ไปต่อ" />
+			<!--
+			<item
+				android:id="@+id/topicMenu"
+				android:title="กระทู้" />
+			-->
+			<item 
+				android:id="@+id/bookmarkMenu"
+				android:title="บุ๊คมาร์ค" />
+			<item
+				android:id="@+id/inboxMenu"
+        		android:title="ข้อความ" />
+			<item
+				android:id="@+id/shareMenu"
+        		android:title="แชร์ลิ้งค์หน้านี้" />
+			<item
+				android:id="@+id/roomMenu"
+        		android:title="เลือกห้อง" />
+			<item
+				android:id="@+id/exitMenu"
+        		android:title="ออก" />
+		</menu>
+	</item>
+</menu>

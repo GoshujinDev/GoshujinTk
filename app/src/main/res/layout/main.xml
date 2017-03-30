@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	tools:context="com.goshujinsama.goshujin.MainActivity">
+
+	<RelativeLayout
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center">
+
+		<WebView
+			android:id="@+id/mainWebView"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_gravity="center"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="top"
+		android:theme="@style/MenuTheme"
+		android:paddingRight="3dp"
+		android:paddingLeft="3dp"
+		android:paddingTop="3dp" >
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" >
+			
+			<android.support.v7.widget.Toolbar
+				android:id="@+id/mainToolbar"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:theme="@style/MenuTheme"
+				android:paddingTop="5dp"
+				android:icon="@drawable/more_option" >
+
+				<ImageButton
+					android:id="@+id/indexButton"
+					android:layout_width="wrap_content"
+					android:layout_height="48dp"
+					android:src="@drawable/home"
+					android:background="@android:color/transparent"/>
+
+				<ImageButton
+					android:id="@+id/searchButton"
+					android:layout_width="wrap_content"
+					android:layout_height="48dp"
+					android:src="@drawable/search"
+					android:background="@android:color/transparent"/>
+
+				<View
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_weight="1"/>
+
+			</android.support.v7.widget.Toolbar>
+		
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="58dp"
+			android:orientation="horizontal"
+			android:layout_gravity="top" >
+
+			<TextView
+				android:id="@+id/textView"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="12sp" />
+
+		</LinearLayout>
+
+	</RelativeLayout>
+	
+	<RelativeLayout
+		android:id="@+id/buttonLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:paddingRight="3dp"
+		android:paddingLeft="3dp"
+		android:paddingTop="3dp"
+		android:orientation="vertical" >
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			
+			<ImageButton
+				android:id="@+id/BackBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:src="@drawable/back"
+				android:background="@android:color/transparent" />
+			
+			<View
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:layout_weight="1"/>
+
+			<ImageButton
+				android:id="@+id/hTopicBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:src="@drawable/topic"
+				android:background="@android:color/transparent" />
+			
+			<View
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:layout_weight="1"/>
+
+			<ImageButton
+				android:id="@+id/nextBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="48dp"
+				android:src="@drawable/next"
+				android:background="@android:color/transparent" />
+			
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</FrameLayout>
+
