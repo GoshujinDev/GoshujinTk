@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/welcomeRoom"
+        android:title="ห้องรับแขก"/>
+	<item
+        android:id="@+id/translatorRoom"
+        android:title="ห้องนิยายแปล"/>
+	<item
+        android:id="@+id/writerRoom"
+        android:title="ห้องงานเขียน"/>
+	<item
+        android:id="@+id/mangaRoom"
+        android:title="ห้องมังงะ"/>
+	<item
+        android:id="@+id/recommendRoom"
+        android:title="ห้องแนะนำ"/>
+	<item
+        android:id="@+id/hobbyRoom"
+        android:title="ห้องสันทนาการ"/>
+	<item
+        android:id="@+id/playRoom"
+        android:title="ห้องเล่นเกม"/>
+	<item
+        android:id="@+id/newsRoom"
+        android:title="ห้องโทรโข่ง"/>
+</menu>
